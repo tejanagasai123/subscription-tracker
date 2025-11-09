@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "restart": "npm stop && npm start"
   },
   "dependencies": {
     "@arcjet/node": "^1.0.0-beta.2",
@@ -26,6 +27,6 @@
     "@eslint/js": "^9.19.0",
     "eslint": "^9.19.0",
     "globals": "^15.14.0",
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.10"
   }
 }
